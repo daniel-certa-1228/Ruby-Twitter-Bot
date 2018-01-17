@@ -13,9 +13,8 @@ def tweetRock
       end
       t = Time.now
       tweet = val
-      # client.update(tweet)
-      puts tweet
-      sleep (t + 1.second - Time.now)
+      client.update(tweet)
+      sleep (t + 1.hour - Time.now)
   end
 end
 
