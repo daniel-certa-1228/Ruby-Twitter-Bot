@@ -36,12 +36,3 @@ rescue PG::Error => e
 ensure
   c.close if c
 end
-
-# file.rewind
-
-#   file.write('0 ')
-# else
-#   file.write(count)
-# end
-
-# file.close
