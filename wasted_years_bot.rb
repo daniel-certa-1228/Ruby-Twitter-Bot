@@ -1,4 +1,4 @@
-require 'Twitter'
+require 'twitter'
 require_relative 'lyrics'
 
 lyrics = Lyrics.class_variable_get(:@@lyricHash)

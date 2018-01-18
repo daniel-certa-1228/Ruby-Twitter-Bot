@@ -2,4 +2,4 @@ source "https://rubygems.org"
 
 ruby "2.4.2"
 
-gem 'twitter'
+gem 'twitter', '~> 6.2.0'
