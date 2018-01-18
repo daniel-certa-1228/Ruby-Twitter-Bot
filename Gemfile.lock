@@ -42,7 +42,7 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
-  twitter (~> 6.2.0)
+  twitter
 
 RUBY VERSION
    ruby 2.4.2p198
