@@ -6,7 +6,8 @@ begin
 
   lyrics = Lyrics.class_variable_get(:@@lyricHash)
   keys = lyrics.keys
-  c = PG.connect( dbname: 'wy_counter')
+  uri = URI.parse(ENV['DATABASE_URL'])
+  c = PG.connect( uri.hostname, uri.port, nil, nil, uri.path[1..-1], uri.user, uri.password )
   db_num = c.exec( "SELECT counter FROM counter;").getvalue 0,0
   count = db_num.to_i
 
@@ -28,9 +29,7 @@ begin
   else
     c.exec( "UPDATE counter SET counter = #{count};")
   end
-
-  puts count
-
+  
 rescue PG::Error => e
   puts e.message
 ensure
