@@ -17,10 +17,10 @@ class Lyrics
         fourteen: "Can't ease this pain, so easily",
         fifteen: "When you can't find the words to say, it's hard to make it through another day",
         sixteen: "And it makes me want to cry, and throw my hands up to the sky",
-        seventeen: "So understand",
-        eighteen: "Don't waste your time always searching for those wasted years",
-        nineteen: "Face up, make your stand",
-        twenty: "And realize you're living in the golden years",
+        seventeen: "So understand,",
+        eighteen: "Don't waste your time always searching for those wasted years,",
+        nineteen: "Face up, make your stand,",
+        twenty: "And realize you're living in the golden years.",
         outro: "(Face-melting outro)\nBEEP-budu-budu-BEEP-budu-budu-BEEP-budu-budu-BEEP-budu-budu-BEEP-budu-BEEP-budu-BEEP-budu-budu-BEEP-budu-budu-BEEP-budu-budu-BEEP-budu-budu-BEEP-budu-BEEP\nDRR-NRR-NRRRR-NRRRRRRRRRRRRRRRRRRRRR"
     }
 end
