@@ -1,6 +1,6 @@
 class Lyrics
     @@lyricHash = {
-        intro: "(Face-melting intro)\nBEEP-budu-budu-BEEP-budu-budu-BEEP-budu-budu-BEEP-budu-budu-BEEP-budu-BEEP-budu-BEEP-budu-budu-BEEP-budu-budu-BEEP-budu-budu-BEEP-budu-budu-BEEP-budu-BEEP\nDRR-NRRRRRRRRRRRRRRRRRRRRR\nBOOM BLAT",
+        intro: "(🔥 Face-Melting Intro 🇬🇧)\nBEEP-budu-budu-BEEP-budu-budu-BEEP-budu-budu-BEEP-budu-budu-BEEP-budu-BEEP-budu-BEEP-budu-budu-BEEP-budu-budu-BEEP-budu-budu-BEEP-budu-budu-BEEP-budu-BEEP\nDRR-NRRRRRRRRRRRRRRRRRRRRR\nBOOM BLAT",
         one: "From the coast of gold, across the seven seas",
         two: "I'm traveling on, far and wide",
         three: "But now it seems, I'm just a stranger to myself",
@@ -21,6 +21,6 @@ class Lyrics
         eighteen: "Don't waste your time always searching for those wasted years,",
         nineteen: "Face up, make your stand,",
         twenty: "And realize you're living in the golden years.",
-        outro: "(Face-melting outro)\nBEEP-budu-budu-BEEP-budu-budu-BEEP-budu-budu-BEEP-budu-budu-BEEP-budu-BEEP-budu-BEEP-budu-budu-BEEP-budu-budu-BEEP-budu-budu-BEEP-budu-budu-BEEP-budu-BEEP\nDRR-NRR-NRRRR-NRRRRRRRRRRRRRRRRRRRRR"
+        outro: "(🔥 Face-Melting Outro 🇬🇧)\nBEEP-budu-budu-BEEP-budu-budu-BEEP-budu-budu-BEEP-budu-budu-BEEP-budu-BEEP-budu-BEEP-budu-budu-BEEP-budu-budu-BEEP-budu-budu-BEEP-budu-budu-BEEP-budu-BEEP\nDRR-NRR-NRRRR-NRRRRRRRRRRRRRRRRRRRRR"
     }
 end
