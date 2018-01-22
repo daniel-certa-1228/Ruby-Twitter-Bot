@@ -3,16 +3,16 @@ require 'pg'
 require_relative 'lyrics'
 
 begin
-
+  #retrieve lyrics from Lyrics class
   lyrics = Lyrics.class_variable_get(:@@lyricHash)
   keys = lyrics.keys
   #The counter keeping track of which line to tweet is stored on a pgsql database
   uri = URI.parse(ENV['DATABASE_URL'])
-  c = PG.connect( uri.hostname, uri.port, nil, nil, uri.path[1..-1], uri.user, uri.password )
+  c = PG.connect( uri.hostname, uri.port, nil, nil, uri.path[1..-1], uri.user, uri.password ) #connect to db
   db_num = c.exec( "SELECT counter FROM counter;").getvalue 0,0
   count = db_num.to_i #The current count
   tweet = lyrics[keys[count]] #defines the tweet as the value that is at the index number of the count
-  
+  #retrieve Twitter creds from env
   client = Twitter::REST::Client.new do |config|
           config.consumer_key        = ENV.fetch('TWITTER_CONSUMER_KEY')
           config.consumer_secret     = ENV.fetch('TWITTER_CONSUMER_SECRET')
